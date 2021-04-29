@@ -1,0 +1,41 @@
+
+<html>
+   <head>
+      <title>YT Search Page</title>
+      <script src="popup.js"></script>
+      <script src="jquery-3.6.0.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <meta charset="UTF-8">
+      <meta name="description" content="Youtube search with no recommendations">
+      <meta name="keywords" content="No youtube recommendations on homepage, No youtube recommendations, how to stop youtube recommendations on youtube ">
+      <meta name="author" content="medimpudi88">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <div class="form_wrapper">
+         <div class="form_container">
+            <div class="title_container">
+               <h2>YOUTUBE search with no homepage recommendations</h2>
+            </div>
+            <div class="row clearfix">
+               <div class="">
+                  <form autocomplete="off" action="https://www.youtube.com/results?search_query=" target="_private">
+                     <div class="input_field"> <span><i aria-hidden="true" class="fa fa-search"></i></span>
+                        <input type="text" name="search_query" placeholder="Search here..." required />
+                     </div>
+                     <div class="input_field checkbox_option">
+                        <input type="checkbox" id="1" disabled checked>
+                        <label for="cb1">We donot store anytype of search history from our end... Happy Surfing</label>
+                     </div>
+                     <div class="input_field checkbox_option">
+                        <input type="checkbox" id="2" disabled checked>
+                        <label for="cb1">Website is for educational purpose only, no other benefits involved</label>
+                     </div>
+                     <input class="button" type="submit" value="Search" />
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
