@@ -1,4 +1,4 @@
-# yt-customsearch.github.io
+# Youtube Custom search
 <!-- 
 Hi! Thanks for having a look to my work. I have made this website only for increasing producticity while searching in youtube.
 **Purpose**: Bypass Youtube homepage and search only the required content
